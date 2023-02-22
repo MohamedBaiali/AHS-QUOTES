@@ -1,0 +1,348 @@
+body{
+    margin: 0 ;
+}
+
+/* red........................................................................... */
+
+.red-card {
+    background-color: transparent;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 100%;
+    position: absolute;
+  }
+  .red-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .red-card:hover .red-card-inner {
+    transform: rotateY(180deg);
+  }
+  .red-card-front, .red-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .red-card-front {
+    background-color: red;
+  }
+  .red-card-back {
+    background-color: brown;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+/* yellow....................................................................... */
+.yellow-card {
+    background-color: transparent;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 100%;
+    position: absolute;
+    top: 33.33%;
+  }
+  .yellow-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .yellow-card:hover .yellow-card-inner {
+    transform: rotateY(180deg);
+  }
+  .yellow-card-front, .yellow-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .yellow-card-front {
+    background-color: yellow;
+  }
+  .yellow-card-back {
+    background-color: blue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+/* blue............................................................................ */
+.blue-card {
+    background-color: transparent;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 100%;
+    position: absolute;
+    top: 66.66%;
+  }
+  .blue-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .blue-card:hover .blue-card-inner {
+    transform: rotateY(180deg);
+  }
+  .blue-card-front, .blue-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .blue-card-front {
+    background-color: blue;
+  }
+  .blue-card-back {
+    background-color: silver;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+/* pink................................................................................ */
+.pink-card {
+    background-color: transparent;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 100%;
+    position: absolute;
+    left: 33.33%;
+  }
+  .pink-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .pink-card:hover .pink-card-inner {
+    transform: rotateY(180deg);
+  }
+  .pink-card-front, .pink-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .pink-card-front {
+    background-color: pink;
+  }
+  .pink-card-back {
+    background-color: #3C1053FF;
+    color: white;
+    transform: rotateY(180deg);
+  }
+/* brown................................................................................... */
+.brown-card {
+    background-color: transparent;
+    width: 33.35%;
+    height: 33.33%;
+    perspective: 100%;
+    position: absolute;
+    left: 33.33%;
+    top: 33.33%;
+  }
+  .brown-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .brown-card:hover .brown-card-inner {
+    transform: rotateY(180deg);
+  }
+  .brown-card-front, .brown-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .brown-card-front {
+    background-color: brown;
+  }
+  .brown-card-back {
+    background-color: orangered;
+    color: white;
+    transform: rotateY(180deg);
+  }
+/* wheat........................................................................................ */
+.wheat-card {
+    background-color: transparent;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 100%;
+    position: absolute;
+    left: 33.33%;
+    top: 66.66% ;
+  
+    
+  }
+  .wheat-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .wheat-card:hover .wheat-card-inner {
+    transform: rotateY(180deg);
+  }
+  .wheat-card-front, .wheat-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .wheat-card-front {
+    background-color: wheat;
+  }
+  .wheat-card-back {
+    background-color: #c77948;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  /* skyblue.......................................................................................... */
+  .skyblue-card {
+    background-color: transparent;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 100%;
+    position: absolute;
+    left: 66.66%;
+  }
+  .skyblue-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .skyblue-card:hover .skyblue-card-inner {
+    transform: rotateY(180deg);
+  }
+  .skyblue-card-front, .skyblue-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .skyblue-card-front {
+    background-color: skyblue;
+  }
+  .skyblue-card-back {
+    background-color: skyblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+/* rebecca................................................................................................... */
+.rebecca-card {
+    background-color: transparent;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 100%;
+    position: absolute;
+    left: 66.66%;
+    top: 33.33%;
+  }
+  .rebecca-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .rebecca-card:hover .rebecca-card-inner {
+    transform: rotateY(180deg);
+  }
+  .rebecca-card-front, .rebecca-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .rebecca-card-front {
+    background-color: rebeccapurple;
+  }
+  .rebecca-card-back {
+    background-color: olivedrab;
+    color: white;
+    transform: rotateY(180deg);
+  }
+/* black.......................................................................................................... */
+.black-card {
+    background-color: transparent;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 100%;
+    position: absolute;
+    left: 66.66%;
+    top: 66.66%;
+  }
+  .black-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .black-card:hover .black-card-inner {
+    transform: rotateY(180deg);
+  }
+  .black-card-front, .black-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .black-card-front {
+    background-color: black;
+  }
+  .black-card-back {
+    background-color: rgb(214, 146, 20);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
